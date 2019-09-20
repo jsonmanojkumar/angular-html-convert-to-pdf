@@ -1,10 +1,7 @@
 # install
 npm install jspdf  
-And to install html2canvas package, use given npm command.
 npm install html2canvas  
-When we are done with the installation part, it's time to import it into our component using the import statement.
-import * as jspdf from 'jspdf';  
-  
+import * as jspdf from 'jspdf';   
 import html2canvas from 'html2canvas'; 
 # app.component.ts 
 import { Component, OnInit, ElementRef ,ViewChild} from '@angular/core';  
